@@ -52,6 +52,7 @@ while init_sys == "I":
     print(style[1])
     print(style[0])
 
+    #operação de deposito
     if op == "D":
         print(style[1])
         valor = float(input("Informe o valor a ser depositado: "))
@@ -65,6 +66,7 @@ while init_sys == "I":
             print("A operação falhou! O valor informado é invalido!")
             print(style[1])
 
+    #operação de saque
     elif op == "S":
         print(style[1])
         valor = float(input("Informe o valor à ser sacado: "))
@@ -99,7 +101,7 @@ while init_sys == "I":
             print("Operação invalida! Valor informado invalido. ")
             print(style[1])
 
-
+    #operação "Exibir" extrado
     elif op == "E":
         print(style[0])
         print(style[1])
@@ -108,6 +110,7 @@ while init_sys == "I":
         print(style[1])
         print(style[0])
 
+    # parar sistema 
     elif op == "Q":
         break
 
